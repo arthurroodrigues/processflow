@@ -82,3 +82,95 @@ Script done on 2026-08-20 23:24:11-03:00 [COMMAND_EXIT_CODE="0"]
 [?2004lexit
 
 Script done on 2026-08-21 11:41:22-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-21 18:12:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ gcc[7mgcc main.c task.c -o processflow[27m[1Pgcc main.c task.c -o processflo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ .\[K|[K/processflow
+[?2004lprocessflow> task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-08-21 18:13:57-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-21 18:14:58-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:33:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kchar[m[K’
+   33 |             [01;31m[Kchar[m[K **args = &tokens[3];
+      |             [01;31m[K^~~~[m[K
+[01m[Kmain.c:35:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kargs[m[K’ undeclared (first use in this function)
+   35 |             cadastrartask(nome, programa, [01;31m[Kargs[m[K, totalargs);
+      |                                           [01;31m[K^~~~[m[K
+[01m[Kmain.c:35:43:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m[1P./processflo[K[K[K[K[K[K[K[K[K[K[K[K[7m gcc main.c task.c -o processflow[27m gcc main.c task.c -o processflow[Kw
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar bin -1
+Task 'listar' cadastrada
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-21 18:16:18-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-21 18:31:24-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m  gcc main.c task.c -o processflow[27m  gcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:58:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   58 |             perror("fork")
+      |                           [01;31m[K^[m[K
+      |                           [32m[K;[m[K
+   59 |         [32m[K}[m[K else if (pid == 0) {
+      |         [32m[K~[m[K                  
+[01m[Kmain.c:62:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kexit[m[K’
+   62 |             perror("execvp")
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+   63 |             [32m[Kexit[m[K(1);
+      |             [32m[K~~~~[m[K             
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m  gcc main.c task.c -o processflow[27m  gcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:63:13:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   63 |             [01;31m[Kexit[m[K(1);
+      |             [01;31m[K^~~~[m[K
+[01m[Kmain.c:6:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+    5 | #include "task.h"
+  +++ |+[32m[K#include <stdlib.h>[m[K
+    6 | 
+[01m[Kmain.c:63:13:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+   63 |             [01;35m[Kexit[m[K(1);
+      |             [01;35m[K^~~~[m[K
+[01m[Kmain.c:63:13:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+[01m[Kmain.c:67:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus[m[K’ undeclared (first use in this function)
+   67 |             waitpid(pid, &[01;31m[Kstatus[m[K, 0);
+      |                           [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:67:27:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m  gcc main.c task.c -o processflow[27m  gcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:63:13:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   63 |             [01;31m[Kexit[m[K(1);
+      |             [01;31m[K^~~~[m[K
+[01m[Kmain.c:6:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+    5 | #include "task.h"
+  +++ |+[32m[K#include <stdlib.h>[m[K
+    6 | 
+[01m[Kmain.c:63:13:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+   63 |             [01;35m[Kexit[m[K(1);
+      |             [01;35m[K^~~~[m[K
+[01m[Kmain.c:63:13:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m gcc main.c task.c -o processflow[27m gcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ .;poc[K[K[K[K?pro[K[K[K[K/processflow
+[?2004lprocessflow> task    task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow> run listar
+total 48
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 16832 Aug 21 18:31 evidencias.log
+-rwxrwxrwx 1 arthur arthur  1754 Aug 21 18:32 main.c
+-rwxrwxrwx 1 arthur arthur 16688 Aug 21 18:32 processflow
+-rwxrwxrwx 1 arthur arthur   896 Aug 21 17:09 task.c
+-rwxrwxrwx 1 arthur arthur   286 Aug 20 22:43 task.h
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exir[Kt
+[?2004lexit
+
+Script done on 2026-08-21 18:33:20-03:00 [COMMAND_EXIT_CODE="0"]
