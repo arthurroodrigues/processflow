@@ -6,14 +6,23 @@
 
 Task listatasks[MAX_TASKS];
 
-int total_tasks = 0;
+int totaltasks = 0;
 
 void cadastrartask(char *nome, char *programa, char **args, int totalargs) {
-    strcpy(listatasks[total_tasks].nome, nome);
-    strcpy(listatasks[total_tasks].programa, programa);
+    strcpy(listatasks[totaltasks].nome, nome);
+    strcpy(listatasks[totaltasks].programa, programa);
     for (int i = 0; i < totalargs; i++) {
-        listatasks[total_tasks].args[i] = args[i];
+        listatasks[totaltasks].args[i] = args[i];
     }
-    listatasks[total_tasks].totalargs = totalargs;
-    total_tasks++;
+    listatasks[totaltasks].totalargs = totalargs;
+    totaltasks++;
+}
+
+Task *buscartask(char *nome) {
+    for (int i=0; i<totaltasks; i++){
+        if(strcmp(listatasks[i].nome,nome)==0){
+            return &listatasks[i];
+        }
+    }
+    return NULL;
 }
