@@ -602,3 +602,62 @@ processflow> ee xit
 [?2004lexit
 
 Script done on 2026-08-22 20:02:50-03:00 [COMMAND_EXIT_CODE="0"]
+[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar_tmp /bin/ls -l
+Task 'listar_tmp' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run listar_tmp
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+processflow> ee xit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ rz[Kxi[K[K[Kexit
+[?2004lexit
+Script done.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make[K[K[K[K[7mscript -a evidencias.log[27mscript -a evidencias.log[Kg
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32maScript started on 2026-08-22 20:20:28-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make buo[Kild
+[?2004lmake: Nothing to be done for 'build'.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make test
+[?2004lTestando ProcessFlow 
+processflow> Task 'listar' cadastrada
+processflow> Task 'pwd_teste' cadastrada
+processflow> Diretório de trabalho alterado para: /tmp
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+/tmp
+/tmp
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+processflow> processflow> processflow> processflow> Teste concluído
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make clean
+[?2004lrm -f processflow
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-22 20:21:23-03:00 [COMMAND_EXIT_CODE="0"]
