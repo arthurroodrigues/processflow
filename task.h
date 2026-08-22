@@ -6,7 +6,7 @@
 typedef struct Task{
     char nome[50];
     char programa[100];
-    char *args[MAX_ARGS];
+    char args[MAX_ARGS][300];
     int totalargs;
 } Task;
 

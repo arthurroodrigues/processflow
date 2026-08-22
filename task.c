@@ -23,7 +23,7 @@ void cadastrartask(char *nome, char *programa, char **args, int totalargs) {
     strcpy(listatasks[totaltasks].nome, nome);
     strcpy(listatasks[totaltasks].programa, programa);
     for (int i = 0; i < totalargs; i++) {
-        listatasks[totaltasks].args[i] = args[i];
+        strcpy(listatasks[totaltasks].args[i], args[i]);
     }
     listatasks[totaltasks].totalargs = totalargs;
     totaltasks++;

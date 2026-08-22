@@ -1,18 +1,25 @@
 Script started on 2026-08-20 18:43:32-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="203" LINES="13"]
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ date
-[?2004lThu Aug 20 18:43:38 -03 2026
+[?2004l
+Thu Aug 20 18:43:38 -03 2026
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ whop[Kami
-[?2004larthur
+[?2004l
+arthur
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ pwd
-[?2004l/mnt/c/Users/User/Desktop/ara
+[?2004l
+/mnt/c/Users/User/Desktop/ara
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit status[27mgit status
-[?2004lfatal: detected dubious ownership in repository at '/mnt/c/Users/User/Desktop/ara'
+[?2004l
+fatal: detected dubious ownership in repository at '/mnt/c/Users/User/Desktop/ara'
 To add an exception for this directory, call:
 
 	git config --global --add safe.directory /mnt/c/Users/User/Desktop/ara
-[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global --add safe.directory /mnt/c/Users/User/Desktop/ara[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global --add safe.directory /mnt/c/Users/User/Desktop/ara
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit status[27mgit status
-[?2004lOn branch main
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global --add safe.directory /mnt/c/Users/User/Desktop/ara[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global --add safe.directory /mnt/c/Users/User/Desktop/ara
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit status[27mgit status
+[?2004l
+On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
@@ -25,12 +32,19 @@ Untracked files:
 	[31mevidencias.log[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.name "Seu Nome Completo"[27mgit config --global user.name "Seu Nome Completo"
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.name "Seu Nome Completo"[27mgit config --global user.name "Seu Nome Completo"
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.name "Seu Nome Completo"[27mgit config --global user.name "Seu Nome Completo"[1P[1P[1P[1P[1P[1P"[1P[1P[1P[1P[1P"[1P[1P[1P[1P[1P[1P[C[1P"A"r"t"h"u"r" "R"o"d"r"i"g"u"e"s"[1@"[1@ [2@^[[2@[C[1P[1P[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.email "seu-email@cesar.school[27mgit config --global user.email "seu-email@cesar.school[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kara@cea[Ksar.school"
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ git [K status
-[?2004lOn branch main
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.name "Seu Nome Completo"[27mgit config --global user.name "Seu Nome Completo"
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.name "Seu Nome Completo"[27mgit config --global user.name "Seu Nome Completo"
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.name "Seu Nome Completo"[27mgit config --global user.name "Seu Nome Completo"[1P[1P[1P[1P[1P[1P"[1P[1P[1P[1P[1P"[1P[1P[1P[1P[1P[1P[C[1P"A"r"t"h"u"r" "R"o"d"r"i"g"u"e"s"[1@"[1@ [2@^[[2@[C[1P[1P[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit config --global user.email "seu-email@cesar.school[27mgit config --global user.email "seu-email@cesar.school[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kara@cea[Ksar.school"
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ git [K status
+[?2004l
+On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
@@ -41,60 +55,127 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit log --oneline -5[27mgit log --oneline -5
-[?2004l[?1h=[33m122affa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m chore: adiciona task.c e task.h[m
+[?2004l
+[?1h=
+[33m122affa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m chore: adiciona task.c e task.h[m
 [33m9058369[m[33m ([m[1;31morigin/main[m[33m)[m chore: estrutura inicial[m
 [33mc009801[m Initial commit[m
-[K[?1l>[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ git push
-[?2004lEnumerating objects: 5, done.
-Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+
+[K[?1l>[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ git push
+[?2004l
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)
+Counting objects:  40% (2/5)
+Counting objects:  60% (3/5)
+Counting objects:  80% (4/5)
+Counting objects: 100% (5/5)
+Counting objects: 100% (5/5), done.
 Delta compression using up to 8 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 665 bytes | 39.00 KiB/s, done.
+Compressing objects:  33% (1/3)
+Compressing objects:  66% (2/3)
+Compressing objects: 100% (3/3)
+Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)
+Writing objects:  66% (2/3)
+Writing objects: 100% (3/3)
+Writing objects: 100% (3/3), 665 bytes | 39.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/arthurroodrigues/processflow.git
    9058369..122affa  main -> main
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
 Script done on 2026-08-20 23:24:11-03:00 [COMMAND_EXIT_CODE="0"]
 Script started on 2026-08-21 11:25:45-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="13"]
-[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc -c task.c -o /tmp/task.o[27mgcc -c task.c -o /tmp/task.o
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mtail -20 evidencias.log[27mtail -20 evidencias.log
-[?2004l  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mmodified:   evidencias.log[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit log --oneline -5[27mgit log --oneline -5
-[?2004l[?1h=[33m122affa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m chore: adiciona task.c e task.h[m
-[33m9058369[m[33m ([m[1;31morigin/main[m[33m)[m chore: estrutura inicial[m
-[33mc009801[m Initial commit[m
-[K[?1l>[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ git push
-[?2004lEnumerating objects: 5, done.
-Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
-Delta compression using up to 8 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 665 bytes | 39.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/arthurroodrigues/processflow.git
-   9058369..122affa  main -> main
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc -c task.c -o /tmp/task.o[27mgcc -c task.c -o /tmp/task.o
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mtail -20 evidencias.log[27mtail -20 evidencias.log
+[?2004l
+  (use "git add <file>..." to update what will be committed)
+
+  (use "git restore <file>..." to discard changes in working directory)
+
+	[31mmodified:   evidencias.log[m
+
+
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgit log --oneline -5[27mgit log --oneline -5
+
+[?2004l
+[?1h=
+[33m122affa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m chore: adiciona task.c e task.h[m
+
+[33m9058369[m[33m ([m[1;31morigin/main[m[33m)[m chore: estrutura inicial[m
+
+[33mc009801[m Initial commit[m
+
+
+[K[?1l>[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ git push
+
+[?2004l
+Enumerating objects: 5, done.
+
+Counting objects:  20% (1/5)
+Counting objects:  40% (2/5)
+Counting objects:  60% (3/5)
+Counting objects:  80% (4/5)
+Counting objects: 100% (5/5)
+Counting objects: 100% (5/5), done.
+
+Delta compression using up to 8 threads
+
+Compressing objects:  33% (1/3)
+Compressing objects:  66% (2/3)
+Compressing objects: 100% (3/3)
+Compressing objects: 100% (3/3), done.
+
+Writing objects:  33% (1/3)
+Writing objects:  66% (2/3)
+Writing objects: 100% (3/3)
+Writing objects: 100% (3/3), 665 bytes | 39.00 KiB/s, done.
+
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+
+To https://github.com/arthurroodrigues/processflow.git
+
+   9058369..122affa  main -> main
+
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
 Script done on 2026-08-20 23:24:11-03:00 [COMMAND_EXIT_CODE="0"]
-[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [K]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
-[?2004lexit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ 
+[K
+]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004l
+exit
 
 Script done on 2026-08-21 11:41:22-03:00 [COMMAND_EXIT_CODE="0"]
 Script started on 2026-08-21 18:12:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ gcc[7mgcc main.c task.c -o processflow[27m[1Pgcc main.c task.c -o processflo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ .\[K|[K/processflow
-[?2004lprocessflow> task listar /bin/ls -l
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ .\[K|[K/processflow
+[?2004l
+processflow> task listar /bin/ls -l
 Task 'listar' cadastrada
 processflow> exit
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mexit[27mexit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2026-08-21 18:13:57-03:00 [COMMAND_EXIT_CODE="0"]
 Script started on 2026-08-21 18:14:58-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:33:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kchar[m[K’
    33 |             [01;31m[Kchar[m[K **args = &tokens[3];
       |             [01;31m[K^~~~[m[K
@@ -103,17 +184,21 @@ Script started on 2026-08-21 18:14:58-03:00 [TERM="xterm-256color" TTY="/dev/pts
       |                                           [01;31m[K^~~~[m[K
 [01m[Kmain.c:35:43:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m[1P./processflo[K[K[K[K[K[K[K[K[K[K[K[K[7m gcc main.c task.c -o processflow[27m gcc main.c task.c -o processflow[Kw
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
-[?2004lprocessflow> task listar bin -1
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004l
+processflow> task listar bin -1
 Task 'listar' cadastrada
 processflow> exit
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2026-08-21 18:16:18-03:00 [COMMAND_EXIT_CODE="0"]
 Script started on 2026-08-21 18:31:24-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m  gcc main.c task.c -o processflow[27m  gcc main.c task.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:58:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
    58 |             perror("fork")
       |                           [01;31m[K^[m[K
@@ -127,7 +212,8 @@ Script started on 2026-08-21 18:31:24-03:00 [TERM="xterm-256color" TTY="/dev/pts
    63 |             [32m[Kexit[m[K(1);
       |             [32m[K~~~~[m[K             
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m  gcc main.c task.c -o processflow[27m  gcc main.c task.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:63:13:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
    63 |             [01;31m[Kexit[m[K(1);
       |             [01;31m[K^~~~[m[K
@@ -144,7 +230,8 @@ Script started on 2026-08-21 18:31:24-03:00 [TERM="xterm-256color" TTY="/dev/pts
       |                           [01;31m[K^~~~~~[m[K
 [01m[Kmain.c:67:27:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m  gcc main.c task.c -o processflow[27m  gcc main.c task.c -o processflow
-[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Kmain.c:63:13:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
    63 |             [01;31m[Kexit[m[K(1);
       |             [01;31m[K^~~~[m[K
@@ -157,8 +244,10 @@ Script started on 2026-08-21 18:31:24-03:00 [TERM="xterm-256color" TTY="/dev/pts
       |             [01;35m[K^~~~[m[K
 [01m[Kmain.c:63:13:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m gcc main.c task.c -o processflow[27m gcc main.c task.c -o processflow
-[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ .;poc[K[K[K[K?pro[K[K[K[K/processflow
-[?2004lprocessflow> task    task listar /bin/ls -l
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ .;poc[K[K[K[K?pro[K[K[K[K/processflow
+[?2004l
+processflow> task    task listar /bin/ls -l
 Task 'listar' cadastrada
 processflow> run listar
 total 48
@@ -171,6 +260,170 @@ total 48
 -rwxrwxrwx 1 arthur arthur   286 Aug 20 22:43 task.h
 processflow> exit
 [?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exir[Kt
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2026-08-21 18:33:20-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-22 19:04:27-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:93:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   93 |             [01;31m[Kif[m[K (t == NULL) {
+      |             [01;31m[K^~[m[K
+[01m[Kmain.c:104:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[Kpids[m[K’
+  104 |         int total [01;31m[Kpids[m[K = 0;
+      |                   [01;31m[K^~~~[m[K
+[01m[Kmain.c:104:24:[m[K [01;31m[Kerror: [m[Kassignment to expression with array type
+  104 |         int total pids [01;31m[K=[m[K 0;
+      |                        [01;31m[K^[m[K
+[01m[Kmain.c:112:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotalpids[m[K’ undeclared (first use in this function)
+  112 |             pids[[01;31m[Ktotalpids[m[K] = iniciar_task(t);
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[Kmain.c:112:18:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:113:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  113 |             totalpids++
+      |                        [01;31m[K^[m[K
+      |                        [32m[K;[m[K
+  114 |         [32m[K}[m[K
+      |         [32m[K~[m[K               
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004l
+processflow> task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow> task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow> run sequential listar pwd_teste
+ls: cannot access 'r': No such file or directory
+/mnt/c/Users/User/Desktop/ara
+processflow>  run sequential listar pwd_teste^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C                                                                                                          ^[[D^[[D^C
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ a[C[K[7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004l
+processflow> ^[[C^[[C^[[C             task listar /bin/ls -l                        task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow>  task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow>  run sequential listar pwd_teste
+ls: cannot access 'r': No such file or directory
+/mnt/c/Users/User/Desktop/ara
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ ^C[?2004l
+[?2004h[?2004l
+
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m^C[?2004l
+[?2004h[?2004l
+
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004l
+processflow> task listar /bin/ls -ltask listar /bin/ls -l                      
+Task 'listar' cadastrada
+processflow>  task pwd_teste /bin/pwd^[[D     d d
+Task 'pwd_teste' cadastrada
+processflow>  run sequential listar pwd_teste
+total 52
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 22517 Aug 22 19:07 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3259 Aug 22 19:05 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:15 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+/mnt/c/Users/User/Desktop/ara
+processflow> processflow> run parallel listar pwd_teste
+processflow> processflow> run parallel listar pwd_teste                                          processflow> run parallel listar pwd_teste                                          processflow> run parallel listar pwd_teste                                          run parallel listar pwd_teste
+/mnt/c/Users/User/Desktop/ara
+total 52
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 22517 Aug 22 19:07 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3259 Aug 22 19:05 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:15 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+Script started on 2026-08-22 19:36:24-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m gcc main.c task.c -o processflow[27m gcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-22 19:36:52-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-22 19:32:01-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:121:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  121 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mreturn 0;[27mreturn 0;[7mgcc main.c task.c -o processflow[27m[1Pgcc main.c task.c -o processflo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27m[13@gcc main.c task.c -o processflow[7m./[27m[C[C[C[C[C[C[C[C[C[C[C[1P./processflo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow> task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow> run sequential listar pwd_teste
+total 56
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 25436 Aug 22 19:30 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3261 Aug 22 19:33 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:33 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+/mnt/c/Users/User/Desktop/ara
+processflow> run parallel listar pwd_teste
+/mnt/c/Users/User/Desktop/ara
+total 56
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 25436 Aug 22 19:30 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3261 Aug 22 19:33 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:33 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m gcc main.c task.c -o processflow[27m gcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mscript -a evidencias.lo[27mscript -a evidencias.log
+[?2004lScript starScript started on 2026-08-22 19:37:13-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow> task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow> run sequential listar pwd_teste
+total 1948
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 30140 Aug 22 19:37 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3261 Aug 22 19:33 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:37 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+/mnt/c/Users/User/Desktop/ara
+processflow> run parallel listar pwd_teste
+/mnt/c/Users/User/Desktop/ara
+total 1948
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 30140 Aug 22 19:37 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3261 Aug 22 19:33 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:37 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+processflow> es xit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-22 19:38:13-03:00 [COMMAND_EXIT_CODE="0"]
