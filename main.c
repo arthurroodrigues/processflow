@@ -5,6 +5,8 @@
 #include <sys/wait.h> 
 #include "task.h"
 
+char diretorioatual[300] = "";
+
 pid_t iniciar_task(Task *t) {
     char *args_exec[t->totalargs + 2];
     args_exec[0] = t->programa;
@@ -14,7 +16,13 @@ pid_t iniciar_task(Task *t) {
     args_exec[t->totalargs + 1] = NULL;
 
     pid_t pid = fork();
-    if (pid == 0) {
+        if (pid == 0) {
+            if (strlen(diretorioatual) > 0) {
+        if (chdir(diretorioatual) != 0) {
+            perror("chdir");
+            exit(1);
+        }
+    }
         execvp(t->programa, args_exec);
         perror("execvp");
         exit(1);
@@ -65,26 +73,9 @@ int main(){
         if (t == NULL) {
             printf("Erro: tarefa não existe.\n");
     }else {
-        
-        char *args_exec[t->totalargs + 2];
-        args_exec[0] = t->programa;
-        for (int i = 0; i < t->totalargs; i++) {
-            args_exec[i + 1] = t->args[i];
-        }
-        args_exec[t->totalargs + 1] = NULL;
-
-        pid_t pid = fork();
-
-        if (pid < 0) {
-            perror("fork");
-        } else if (pid == 0) {
-            execvp(t->programa, args_exec);
-            perror("execvp");
-            exit(1);
-        } else {
-            int status;
-            waitpid(pid, &status, 0);
-        }
+        pid_t pid = iniciar_task(t);
+        int status;
+        waitpid(pid, &status, 0);
     }
 }
     if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 && strcmp(tokens[1], "sequential") == 0) {
@@ -117,6 +108,10 @@ int main(){
                 waitpid(pids[i], &status, 0);    
     }
     }
+    if (strcmp(tokens[0], "workdir") == 0) {
+        strcpy(diretorioatual, tokens[1]);
+        printf("Diretório de trabalho alterado para: %s\n", diretorioatual);
+}
 }
     return 0;
 }

@@ -427,3 +427,178 @@ processflow> es xit
 [?2004lexit
 
 Script done on 2026-08-22 19:38:13-03:00 [COMMAND_EXIT_CODE="0"]
+ted, output log file is 'evidencias.log'.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow> task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow> run sequential listar pwd_teste
+total 1948
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 30140 Aug 22 19:37 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3261 Aug 22 19:33 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:37 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+/mnt/c/Users/User/Desktop/ara
+processflow> run parallel listar pwd_teste
+/mnt/c/Users/User/Desktop/ara
+total 1948
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 30140 Aug 22 19:37 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3261 Aug 22 19:33 main.c
+-rwxrwxrwx 1 arthur arthur 16728 Aug 22 19:37 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+processflow> es xit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m script -a evidencias.log[27m script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:129:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiretorio_atual[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kdiretorioatual[m[K’?
+  129 |         strcpy([01;31m[Kdiretorio_atual[m[K, tokens[1]);
+      |                [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                [32m[Kdiretorioatual[m[K
+[01m[Kmain.c:129:16:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> ./processflow             task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run pwd_teste
+/mnt/c/Users/User/Desktop/ara
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar_tmp /bin/ls -l
+Task 'listar_tmp' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run listar_tmp
+total 1948
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 2Script started on 2026-08-22 19:52:12-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:129:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kdiretorio_atual[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kdiretorioatual[m[K’?
+  129 |         strcpy([01;31m[Kdiretorio_atual[m[K, tokens[1]);
+      |                [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                [32m[Kdiretorioatual[m[K
+[01m[Kmain.c:129:16:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> ./processflow             task pwd_teste /bin/pwd
+Task 'pwd_teste' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run pwd_teste
+/mnt/c/Users/User/Desktop/ara
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar_tmp /bin/ls -l
+Task 'listar_tmp' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run listar_tmp
+total 1948
+-rwxrwxrwx 1 arthur arthur     0 Aug 19 23:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 32075 Aug 22 19:38 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3619 Aug 22 19:52 main.c
+-rwxrwxrwx 1 arthur arthur 16808 Aug 22 19:52 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+processflow> ^C
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-22 19:58:09-03:00 [COMMAND_EXIT_CODE="130"]
+3:30 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 19 01:37 README.md
+-rwxrwxrwx 1 arthur arthur 32075 Aug 22 19:38 evidencias.log
+-rwxrwxrwx 1 arthur arthur  3619 Aug 22 19:52 main.c
+-rwxrwxrwx 1 arthur arthur 16808 Aug 22 19:52 processflow
+-rwxrwxrwx 1 arthur arthur   903 Aug 22 19:13 task.c
+-rwxrwxrwx 1 arthur arthur   290 Aug 22 19:13 task.h
+processflow> ^C
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ v[K[7mls -la /tmp[27mls -la /tmp
+[?2004ltotal 4
+drwxrwxrwt  9 root   root    180 Aug 22 19:52 [0m[30;42m.[0m
+drwxr-xr-x 19 root   root   4096 Aug 22 18:31 [01;34m..[0m
+drwxrwxrwx  2 root   root     60 Aug 22 18:31 [34;42m.X11-unix[0m
+drwx------  2 arthur arthur   60 Aug 22 18:31 [01;34mmcp-CcImno[0m
+drwxr-xr-x  3 arthur arthur   60 Aug 22 18:31 [01;34mnode-compile-cache[0m
+drwx------  2 root   root     40 Aug 22 18:31 [01;34msnap-private-tmp[0m
+drwx------  3 root   root     60 Aug 22 18:31 [01;34msystemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm[0m
+drwx------  3 root   root     60 Aug 22 18:53 [01;34msystemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT[0m
+drwx------  3 root   root     60 Aug 22 18:31 [01;34msystemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2[0m
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar_tmp /bin/ls -l
+Task 'listar_tmp' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run listar_tmp
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7marthur@DESKTOP-0VQHRHI:/mnt/c/Users/User/Desktop/ara$ ./processflow[27m
+[7mprocessflow> task listar_tmp /bin/ls -l[27m
+[7mTask 'listar_tmp' cadastrada[27m
+[7mprocessflow> workdir /tmp[27m
+[7mDiretório de trabalho alterado para: /tmp[27m
+[7mprocessflow> run listar_tmp[27m
+[7mtotal 0[27m
+[7mdrwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno[27m
+[7mdrwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache[27m
+[7mdrwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp[27m
+[7mdrwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm[27m
+[7mdrwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT[27m
+[7mdrwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2[27m
+[7mprocessflow> [27m[A[A[A[A[A[A[A[A[A[A[A[A[A]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ arthur@DESKTOP-0VQHRHI:/mnt/c/Users/User/Desktop/ara$ ./processflow
+processflow> task listar_tmp /bin/ls -l
+Task 'listar_tmp' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run listar_tmp
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+[1Pprocessflow>[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KScript started on 2026-08-22 20:02:14-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar_tmp /bin/ls -l
+Task 'listar_tmp' cadastrada
+processflow> workdir /tmp
+Diretório de trabalho alterado para: /tmp
+processflow> run listar_tmp
+total 0
+drwx------ 2 arthur arthur 60 Aug 22 18:31 mcp-CcImno
+drwxr-xr-x 3 arthur arthur 60 Aug 22 18:31 node-compile-cache
+drwx------ 2 root   root   40 Aug 22 18:31 snap-private-tmp
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-chrony.service-OURWRm
+drwx------ 3 root   root   60 Aug 22 18:53 systemd-private-98e7789912224a3e813c32f4e5987de8-polkit.service-mltxdT
+drwx------ 3 root   root   60 Aug 22 18:31 systemd-private-98e7789912224a3e813c32f4e5987de8-systemd-logind.service-Zbtqx2
+processflow> ee xit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ rz[Kxi[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-08-22 20:02:50-03:00 [COMMAND_EXIT_CODE="0"]
