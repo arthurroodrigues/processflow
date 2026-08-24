@@ -797,3 +797,78 @@ processflow> exit
 [?2004lexit
 
 Script done on 2026-08-24 02:43:48-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-24 15:15:22-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kiniciarpipe[m[K’:
+[01m[Kmain.c:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotaltaskspipe[m[K’ undeclared (first use in this function); did you mean ‘[01m[Ktotal_tasks_pipe[m[K’?
+   61 |     int totalpipes = [01;31m[Ktotaltaskspipe[m[K - 1;
+      |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                      [32m[Ktotal_tasks_pipe[m[K
+[01m[Kmain.c:61:22:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:73:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotaltasks_ipe[m[K’ undeclared (first use in this function); did you mean ‘[01m[Ktotal_tasks_pipe[m[K’?
+   73 |     for (int i = 0; i < [01;31m[Ktotaltasks_ipe[m[K; i++) {
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                         [32m[Ktotal_tasks_pipe[m[K
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:193:21:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kiniciar_task[m[K’; did you mean ‘[01m[Kiniciartask[m[K’? [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+  193 |         pid_t pid = [01;31m[Kiniciar_task[m[K(t);
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+      |                     [32m[Kiniciartask[m[K
+[01m[Kmain.c:267:5:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kiniciar_pipe[m[K’; did you mean ‘[01m[Kiniciarpipe[m[K’? [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+  267 |     [01;31m[Kiniciar_pipe[m[K(&tokens[2], totaltokens - 2);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[Kiniciarpipe[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kiniciarpipe[m[K’:
+[01m[Kmain.c:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotaltaskspipe[m[K’ undeclared (first use in this function); did you mean ‘[01m[Ktotal_tasks_pipe[m[K’?
+   61 |     int totalpipes = [01;31m[Ktotaltaskspipe[m[K - 1;
+      |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                      [32m[Ktotal_tasks_pipe[m[K
+[01m[Kmain.c:61:22:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:267:5:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kiniciar_pipe[m[K’; did you mean ‘[01m[Kiniciarpipe[m[K’? [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+  267 |     [01;31m[Kiniciar_pipe[m[K(&tokens[2], totaltokens - 2);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[Kiniciarpipe[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:267:5:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kiniciar_pipe[m[K’; did you mean ‘[01m[Kiniciarpipe[m[K’? [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+  267 |     [01;31m[Kiniciar_pipe[m[K(&tokens[2], totaltokens - 2);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[Kiniciarpipe[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listarudo /bin/ls /tmp
+Task 'listarudo' cadastrada
+processflow> task contar /usr/bin/wc -l
+Task 'contar' cadastrada
+processflow> run pipe listarudo contar
+Erro: tarefa não existe.
+5
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m&&[27m
+[7m    strcmp(tokens[1], "pipe") != 0)[27m[A]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ &&
+[1P    strcmp(tokens[1], "pipe") != 0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[7mgcc main.c task.c -o processflow[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc main.c task.c -o processflow
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:187:36:[m[K [01;31m[Kerror: [m[Kexpected statement before ‘[01m[K)[m[K’ token
+  187 |     strcmp(tokens[1], "pipe") != 0)[01;31m[K)[m[K {
+      |                                    [01;31m[K^[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m    strcmp(tokens[1], "pipe") != 0) {[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C    strcmp(tokens[1], "pipe") != 0) {
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgcc main.c task.c -o processflow[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc main.c task.c -o processflow
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listarudo /bin/ls /tmp
+Task 'listarudo' cadastrada
+processflow>  task contar /usr/bin/wc -l^[[D^[[D                                    task contar /usr/bin/wc -l
+Task 'contar' cadastrada
+processflow> run pipe listarudo contar
+5
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-24 15:31:30-03:00 [COMMAND_EXIT_CODE="0"]

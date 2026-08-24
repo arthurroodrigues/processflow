@@ -8,7 +8,7 @@
 
 char diretorioatual[300] = "";
 
-pid_t iniciar_task(Task *t) {
+pid_t iniciartask(Task *t) {
     char *args_exec[t->totalargs + 2];
     args_exec[0] = t->programa;
     for (int i = 0; i < t->totalargs; i++) {
@@ -57,6 +57,69 @@ pid_t iniciar_task(Task *t) {
     }
     return pid;
 }
+void iniciarpipe(char *nomestasks[], int totaltaskspipe) {
+    int totalpipes = totaltaskspipe - 1;
+    int pipes[totalpipes][2];
+
+    for (int i = 0; i < totalpipes; i++) {
+        if (pipe(pipes[i]) == -1) {
+            perror("pipe");
+            exit(1);
+        }
+    }
+
+    pid_t pids[totaltaskspipe];
+
+    for (int i = 0; i < totaltaskspipe; i++) {
+        Task *t = buscartask(nomestasks[i]);
+        if (t == NULL) {
+            printf("Erro: tarefa '%s' não existe.\n", nomestasks[i]);
+            continue;
+        }
+
+        pid_t pid = fork();
+
+        if (pid == 0) {
+            
+            if (i > 0) {
+                dup2(pipes[i - 1][0], 0);
+            }
+            
+            if (i < totalpipes) {
+                dup2(pipes[i][1], 1);
+            }
+
+            
+            for (int j = 0; j < totalpipes; j++) {
+                close(pipes[j][0]);
+                close(pipes[j][1]);
+            }
+
+            char *args_exec[t->totalargs + 2];
+            args_exec[0] = t->programa;
+            for (int k = 0; k < t->totalargs; k++) {
+                args_exec[k + 1] = t->args[k];
+            }
+            args_exec[t->totalargs + 1] = NULL;
+
+            execvp(t->programa, args_exec);
+            perror("execvp");
+            exit(1);
+        }
+
+        pids[i] = pid;
+    }
+
+
+    for (int i = 0; i < totalpipes; i++) {
+        close(pipes[i][0]);
+        close(pipes[i][1]);
+    }
+    for (int i = 0; i < totaltaskspipe; i++) {
+        int status;
+        waitpid(pids[i], &status, 0);
+    }
+}
 
 int main(int argc, char *argv[]){
     char linha[300];
@@ -81,11 +144,11 @@ int main(int argc, char *argv[]){
         }
 
         if (fgets(linha, sizeof(linha), entrada) == NULL) {
-            break; // chegou no fim do arquivo, ou Ctrl-D no interativo
+            break; 
         }
 
         if (workflow) {
-            printf("%s", linha); // imprime a linha lida (exigência do enunciado)
+            printf("%s", linha); 
         }
 
         linha[strcspn(linha, "\n")] = 0;
@@ -120,14 +183,15 @@ int main(int argc, char *argv[]){
         
         
     if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 &&
-    strcmp(tokens[1], "sequential") != 0 && strcmp(tokens[1], "parallel") != 0) {
+    strcmp(tokens[1], "sequential") != 0 && strcmp(tokens[1], "parallel") != 0 &&
+    strcmp(tokens[1], "pipe") != 0) {
         char *nometask = tokens[1];
         Task *t = buscartask(nometask);
 
         if (t == NULL) {
             printf("Erro: tarefa não existe.\n");
     }else {
-        pid_t pid = iniciar_task(t);
+        pid_t pid = iniciartask(t);
         int status;
         waitpid(pid, &status, 0);
     }
@@ -139,7 +203,7 @@ int main(int argc, char *argv[]){
                 printf("Erro: tarefa '%s' não existe.\n", tokens[i]);
                 continue;
             }
-            pid_t pid = iniciar_task(t);
+            pid_t pid = iniciartask(t);
             int status;
             waitpid(pid, &status, 0);
             }
@@ -154,7 +218,7 @@ int main(int argc, char *argv[]){
                 printf("Erro: tarefa '%s' não existe.\n", tokens[i]);
                 continue;
             }
-            pids[totalpids] = iniciar_task(t);
+            pids[totalpids] = iniciartask(t);
             totalpids++;
         }
         for (int i = 0; i < totalpids; i++) {
@@ -199,6 +263,9 @@ int main(int argc, char *argv[]){
             strcpy(t->arquivoinput, tokens[2]);
             printf("Input será lido de '%s'.\n", tokens[2]);
     }
+}
+    if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 && strcmp(tokens[1], "pipe") == 0) {
+    iniciarpipe(&tokens[2], totaltokens - 2);
 }
 }
     return 0;
