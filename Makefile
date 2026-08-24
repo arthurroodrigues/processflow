@@ -3,8 +3,8 @@ CFLAGS = -std=c11 -Wall -Wextra -pedantic
 
 build: processflow
 
-processflow: main.c task.c
-	$(CC) $(CFLAGS) main.c task.c -o processflow
+processflow: main.c task.c job.c
+	$(CC) $(CFLAGS) main.c task.c job.c -o processflow
 
 run: processflow
 	./processflow

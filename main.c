@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <sys/wait.h> 
 #include "task.h"
+#include "job.h"
 
 char diretorioatual[300] = "";
 
@@ -265,8 +266,28 @@ int main(int argc, char *argv[]){
     }
 }
     if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 && strcmp(tokens[1], "pipe") == 0) {
-    iniciarpipe(&tokens[2], totaltokens - 2);
+        iniciarpipe(&tokens[2], totaltokens - 2);
 }
+    if (strcmp(tokens[0], "start") == 0) {
+        char *nometask = tokens[1];
+        Task *t = buscartask(nometask);
+
+    if (t == NULL) {
+        printf("Erro: tarefa '%s' não existe.\n", nometask);
+    } else {
+        pid_t pid = iniciartask(t);
+        cadastrarjob(pid);
+    }
+    }
+
+    if (strcmp(tokens[0], "jobs") == 0) {
+        listarjobs();
+    }
+
+    if (strcmp(tokens[0], "wait") == 0) {
+        int idprocurado = atoi(tokens[1]);
+        esperarjob(idprocurado);
+    }
 }
     return 0;
 }

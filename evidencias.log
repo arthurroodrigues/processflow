@@ -872,3 +872,46 @@ processflow> exit
 [?2004lexit
 
 Script done on 2026-08-24 15:31:30-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-24 15:50:00-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make clean
+[?2004lrm -f processflow
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make build
+[?2004lgcc -std=c11 -Wall -Wextra -pedantic main.c task.c job.c -o processflow
+In file included from [01m[Kjob.c:1[m[K:
+[01m[Kjob.h:6:5:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kpid_t[m[K’
+    6 |     [01;31m[Kpid_t[m[K pid;
+      |     [01;31m[K^~~~~[m[K
+[01m[Kjob.h:10:19:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kpid_t[m[K’
+   10 | void cadastrarjob([01;31m[Kpid_t[m[K pid);
+      |                   [01;31m[K^~~~~[m[K
+make: *** [Makefile:7: processflow] Error 1
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ make build
+[?2004lgcc -std=c11 -Wall -Wextra -pedantic main.c task.c job.c -o processflow
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow>  task esperar /bin/sleep 3
+Task 'esperar' cadastrada
+processflow>  start esperar
+[1] 9167
+processflow> jio obs    obs
+[1] 9167  Done
+processflow> wait 1
+Job [1] finalizado.
+processflow> jobs
+[1] 9167  Done
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow>  task esperar /bin/sleep 10
+Task 'esperar' cadastrada
+processflow>  start esperar
+[1] 9622
+processflow>  jobs
+[1] 9622  Running
+processflow> wait 1
+Job [1] finalizado.
+processflow> jobs
+[1] 9622  Done
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exir[Kt
+[?2004lexit
+
+Script done on 2026-08-24 15:53:38-03:00 [COMMAND_EXIT_CODE="0"]
