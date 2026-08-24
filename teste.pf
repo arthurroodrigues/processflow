@@ -1,0 +1,16 @@
+task listar /bin/ls -l
+task pwd_teste /bin/pwd
+task contar /usr/bin/wc -l
+task esperar /bin/sleep 2
+workdir /tmp
+run listar
+run sequential listar pwd_teste
+run parallel listar pwd_teste
+run pipe listar contar
+output listar saida_workflow.txt
+run listar
+start esperar
+jobs
+wait 1
+jobs
+exit
