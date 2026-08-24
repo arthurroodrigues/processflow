@@ -62,11 +62,15 @@ int main(int argc, char *argv[]){
     char linha[300];
     FILE *entrada = stdin;
     int workflow = 0;
+    if (argc > 2) {
+        printf("Erro : número de argumentos inválido.\n");
+        exit(1);
+}
 
     if (argc > 1) {
         entrada = fopen(argv[1], "r");
         if (entrada == NULL) {
-            printf("Erro fatal: não foi possível abrir o workflow file.\n");
+            printf("Erro : não foi possível abrir o workflow file.\n");
             exit(1);
         }
         workflow = 1;
