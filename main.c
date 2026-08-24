@@ -173,6 +173,9 @@ int main(int argc, char *argv[]){
         }
         
         if (strcmp(tokens[0], "task") == 0) {
+            if (totaltokens < 3) {
+                printf("Erro: uso indevido da função task.\n");
+    }else{
             char *nome = tokens[1];
             char *programa = tokens[2];
             int totalargs = totaltokens - 3;
@@ -181,6 +184,8 @@ int main(int argc, char *argv[]){
             cadastrartask(nome, programa, args, totalargs);
             printf("Task '%s' cadastrada\n", nome);
         }
+    }
+    
         
         
     if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 &&
@@ -197,6 +202,10 @@ int main(int argc, char *argv[]){
         waitpid(pid, &status, 0);
     }
 }
+    if (strcmp(tokens[0], "run") == 0 && totaltokens == 1) {
+        printf("Erro: uso indevido da função run.\n");
+    }
+    
     if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 && strcmp(tokens[1], "sequential") == 0) {
         for (int i = 2; i < totaltokens; i++) {
             Task *t = buscartask(tokens[i]);
@@ -228,10 +237,17 @@ int main(int argc, char *argv[]){
     }
     }
     if (strcmp(tokens[0], "workdir") == 0) {
+        if (totaltokens < 2) {
+            printf("Erro: uso indevido da função workdir.\n");
+    } else {
         strcpy(diretorioatual, tokens[1]);
         printf("Diretório de trabalho alterado para: %s\n", diretorioatual);
 }
+    }
     if (strcmp(tokens[0], "output") == 0) {
+        if (totaltokens < 3) {
+        printf("Erro: uso indevido da função output.\n");
+    } else{
         char *nometask = tokens[1];
         Task *t = buscartask(nometask);
         if (t == NULL) {
@@ -242,8 +258,12 @@ int main(int argc, char *argv[]){
             printf("Output redirecionado para '%s'.\n", tokens[2]);
     }
 }
+}
 
     if (strcmp(tokens[0], "append") == 0) {
+        if (totaltokens < 3) {
+            printf("Erro: uso indevido da função append.\n");
+    } else {
         char *nometask = tokens[1];
         Task *t = buscartask(nometask);
         if (t == NULL) {
@@ -254,8 +274,12 @@ int main(int argc, char *argv[]){
             printf("Output será anexado a '%s'.\n", tokens[2]);
     }
 }
+}
 
     if (strcmp(tokens[0], "input") == 0) {
+        if (totaltokens < 3) {
+            printf("Erro: incorreto da função input.\n");
+    } else {
         char *nometask = tokens[1];
         Task *t = buscartask(nometask);
         if (t == NULL) {
@@ -265,10 +289,14 @@ int main(int argc, char *argv[]){
             printf("Input será lido de '%s'.\n", tokens[2]);
     }
 }
+}
     if (strcmp(tokens[0], "run") == 0 && totaltokens > 1 && strcmp(tokens[1], "pipe") == 0) {
         iniciarpipe(&tokens[2], totaltokens - 2);
 }
     if (strcmp(tokens[0], "start") == 0) {
+        if (totaltokens < 2) {
+            printf("Erro: uso indevido da função start.\n");
+    } else {
         char *nometask = tokens[1];
         Task *t = buscartask(nometask);
 
@@ -279,16 +307,22 @@ int main(int argc, char *argv[]){
         cadastrarjob(pid);
     }
     }
+}
+
 
     if (strcmp(tokens[0], "jobs") == 0) {
         listarjobs();
     }
 
     if (strcmp(tokens[0], "wait") == 0) {
+        if (totaltokens < 2) {
+            printf("Erro: uso incorreto da função wait'.\n");
+    } else {
         int idprocurado = atoi(tokens[1]);
         esperarjob(idprocurado);
     }
 }
-    return 0;
 }
+    return 0;
 
+}
