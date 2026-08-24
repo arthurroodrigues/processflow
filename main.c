@@ -58,19 +58,38 @@ pid_t iniciar_task(Task *t) {
     return pid;
 }
 
-int main(){
+int main(int argc, char *argv[]){
     char linha[300];
-    
+    FILE *entrada = stdin;
+    int workflow = 0;
+
+    if (argc > 1) {
+        entrada = fopen(argv[1], "r");
+        if (entrada == NULL) {
+            printf("Erro fatal: não foi possível abrir o workflow file.\n");
+            exit(1);
+        }
+        workflow = 1;
+    }
     while(1){
-        printf("processflow> ");
-        fgets(linha,sizeof(linha),stdin);
+         if (workflow==0) {
+            printf("processflow> ");
+        }
 
-        linha[strcspn(linha, "\n")]=0;
+        if (fgets(linha, sizeof(linha), entrada) == NULL) {
+            break; // chegou no fim do arquivo, ou Ctrl-D no interativo
+        }
 
-        if (strcmp(linha,"exit")==0){
+        if (workflow) {
+            printf("%s", linha); // imprime a linha lida (exigência do enunciado)
+        }
+
+        linha[strcspn(linha, "\n")] = 0;
+
+        if (strcmp(linha, "exit") == 0){
             break;
         }
-    
+        
         char *tokens[30];
         int totaltokens=0;
 

@@ -754,4 +754,38 @@ processflow> exit
 -rwxrwxrwx 1 arthur arthur 16928 Aug 23 23:29 processflow
 -rwxrwxrwx 1 arthur arthur     0 Aug 23 23:30 saida.txt
 -rwxrwxrwx 1 arthur arthur  1049 Aug 23 22:45 task.c
--rwxrwxrwx 1 arthur arthur   367 Aug 23 22:43 task
+-rwxrwxrwx 1 arthur arthur   367 Aug 23 22:43 task.h
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-23 23:33:23-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-24 02:19:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mecho "task listar /bin/ls[27mecho "task listar /bin/ls
+[?2004l[?2004h> run listar
+[?2004l[?2004h> exit teste.pf
+[?2004l[?2004h> '[K"
+[?2004ltask listar /bin/ls
+run listar
+exit teste.pf
+
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mprintf "task listar /bin/ls\nrun listar\nexit\n" > teste.pf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cprintf "task listar /bin/ls\nrun listar\nexit\n" > teste.pf
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mcat teste.pf[27mcat teste.pf
+[?2004ltask listar /bin/ls
+run listar
+exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow teste.pf[27m./processflow teste.pf
+[?2004ltask listar /bin/ls
+processflow> ^C
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow teste.pf[27m./processflow teste.pf
+[?2004ltask listar /bin/ls
+Task 'listar' cadastrada
+run listar
+Makefile  README.md  evidencias.log  main.c  processflow  saida.txt  task.c  task.h  teste.pf
+exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-24 02:36:54-03:00 [COMMAND_EXIT_CODE="0"]
