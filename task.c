@@ -26,6 +26,9 @@ void cadastrartask(char *nome, char *programa, char **args, int totalargs) {
         strcpy(listatasks[totaltasks].args[i], args[i]);
     }
     listatasks[totaltasks].totalargs = totalargs;
+    listatasks[totaltasks].arquivoinput[0] = '\0';
+    listatasks[totaltasks].arquivooutput[0] = '\0';
+    listatasks[totaltasks].modooutput = 0;
     totaltasks++;
 }
 

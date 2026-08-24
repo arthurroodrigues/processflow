@@ -661,3 +661,97 @@ processflow> processflow> processflow> processflow> Teste concluído
 [?2004lexit
 
 Script done on 2026-08-22 20:21:23-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-23 22:45:22-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kiniciar_task[m[K’:
+[01m[Kmain.c:26:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Kmodo_output[m[K’; did you mean ‘[01m[Kmodooutput[m[K’?
+   26 |          if (t->[01;31m[Kmodo_output[m[K == 1) {
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+      |                 [32m[Kmodooutput[m[K
+[01m[Kmain.c:27:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_output[m[K’; did you mean ‘[01m[Karquivooutput[m[K’?
+   27 |             int fd = open(t->[01;31m[Karquivo_output[m[K, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                              [32m[Karquivooutput[m[K
+[01m[Kmain.c:34:23:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Kmodo_output[m[K’; did you mean ‘[01m[Kmodooutput[m[K’?
+   34 |         } else if (t->[01;31m[Kmodo_output[m[K == 2) {
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+      |                       [32m[Kmodooutput[m[K
+[01m[Kmain.c:35:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_output[m[K’; did you mean ‘[01m[Karquivooutput[m[K’?
+   35 |             int fd = open(t->[01;31m[Karquivo_output[m[K, O_WRONLY | O_CREAT | O_APPEND, 0644);
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                              [32m[Karquivooutput[m[K
+[01m[Kmain.c:44:23:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_input[m[K’; did you mean ‘[01m[Karquivoinput[m[K’?
+   44 |         if (strlen(t->[01;31m[Karquivo_input[m[K) > 0) {
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                       [32m[Karquivoinput[m[K
+[01m[Kmain.c:45:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_input[m[K’; did you mean ‘[01m[Karquivoinput[m[K’?
+   45 |             int fd = open(t->[01;31m[Karquivo_input[m[K, O_RDONLY);
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                              [32m[Karquivoinput[m[K
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:149:23:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_output[m[K’; did you mean ‘[01m[Karquivooutput[m[K’?
+  149 |             strcpy(t->[01;31m[Karquivo_output[m[K, tokens[2]);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Karquivooutput[m[K
+[01m[Kmain.c:150:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Kmodo_output[m[K’; did you mean ‘[01m[Kmodooutput[m[K’?
+  150 |             t->[01;31m[Kmodo_output[m[K = 1;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+      |                [32m[Kmodooutput[m[K
+[01m[Kmain.c:161:23:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_output[m[K’; did you mean ‘[01m[Karquivooutput[m[K’?
+  161 |             strcpy(t->[01;31m[Karquivo_output[m[K, tokens[2]);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Karquivooutput[m[K
+[01m[Kmain.c:162:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Kmodo_output[m[K’; did you mean ‘[01m[Kmodooutput[m[K’?
+  162 |             t->[01;31m[Kmodo_output[m[K = 2;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+      |                [32m[Kmodooutput[m[K
+[01m[Kmain.c:173:23:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Karquivo_input[m[K’; did you mean ‘[01m[Karquivoinput[m[K’?
+  173 |             strcpy(t->[01;31m[Karquivo_input[m[K, tokens[2]);
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                       [32m[Karquivoinput[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:150:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Kmodo_output[m[K’; did you mean ‘[01m[Kmodooutput[m[K’?
+  150 |             t->[01;31m[Kmodo_output[m[K = 1;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+      |                [32m[Kmodooutput[m[K
+[01m[Kmain.c:162:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTask[m[K’ has no member named ‘[01m[Kmodo_output[m[K’; did you mean ‘[01m[Kmodooutput[m[K’?
+  162 |             t->[01;31m[Kmodo_output[m[K = 2;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+      |                [32m[Kmodooutput[m[K
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow>  task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow>  output listar saida.txt
+Output redirecionado para 'saida.txt'.
+processflow>  run listar
+total 96
+-rwxrwxrwx 1 arthur arthur   447 Aug 22 20:19 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 23 22:41 README.md
+-rwxrwxrwx 1 arthur arthur 59334 Aug 23 23:23 evidencias.log
+-rwxrwxrwx 1 arthur arthur  5078 Aug 23 23:24 main.c
+-rwxrwxrwx 1 arthur arthur 16928 Aug 23 23:24 processflow
+-rwxrwxrwx 1 arthur arthur  1049 Aug 23 22:45 task.c
+-rwxrwxrwx 1 arthur arthur   367 Aug 23 22:43 task.h
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7mgcc main.c task.c -o processflow[27mgcc main.c task.c -o processflow
+[?2004l[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+Task 'listar' cadastrada
+processflow>  output listar saida.txt
+Output redirecionado para 'saida.txt'.
+processflow>  run listar
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ cat saisa.txt
+[?2004lcat: saisa.txt: No such file or directory
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ cat saida.txt
+[?2004ltotal 96
+-rwxrwxrwx 1 arthur arthur   447 Aug 22 20:19 Makefile
+-rwxrwxrwx 1 arthur arthur    13 Aug 23 22:41 README.md
+-rwxrwxrwx 1 arthur arthur 59334 Aug 23 23:23 evidencias.log
+-rwxrwxrwx 1 arthur arthur  5078 Aug 23 23:29 main.c
+-rwxrwxrwx 1 arthur arthur 16928 Aug 23 23:29 processflow
+-rwxrwxrwx 1 arthur arthur     0 Aug 23 23:30 saida.txt
+-rwxrwxrwx 1 arthur arthur  1049 Aug 23 22:45 task.c
+-rwxrwxrwx 1 arthur arthur   367 Aug 23 22:43 task

@@ -2,6 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <fcntl.h>
 #include <sys/wait.h> 
 #include "task.h"
 
@@ -23,6 +24,33 @@ pid_t iniciar_task(Task *t) {
             exit(1);
         }
     }
+         if (t->modooutput == 1) {
+            int fd = open(t->arquivooutput, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+            if (fd < 0) {
+                perror("open output");
+                exit(1);
+            }
+            dup2(fd, 1);
+            close(fd);
+        } else if (t->modooutput == 2) {
+            int fd = open(t->arquivooutput, O_WRONLY | O_CREAT | O_APPEND, 0644);
+            if (fd < 0) {
+                perror("open append");
+                exit(1);
+            }
+            dup2(fd, 1);
+            close(fd);
+        }
+
+        if (strlen(t->arquivoinput) > 0) {
+            int fd = open(t->arquivoinput, O_RDONLY);
+            if (fd < 0) {
+                perror("open input");
+                exit(1);
+            }
+            dup2(fd, 0);
+            close(fd);
+        }
         execvp(t->programa, args_exec);
         perror("execvp");
         exit(1);
@@ -111,6 +139,40 @@ int main(){
     if (strcmp(tokens[0], "workdir") == 0) {
         strcpy(diretorioatual, tokens[1]);
         printf("Diretório de trabalho alterado para: %s\n", diretorioatual);
+}
+    if (strcmp(tokens[0], "output") == 0) {
+        char *nometask = tokens[1];
+        Task *t = buscartask(nometask);
+        if (t == NULL) {
+            printf("Erro: tarefa não existe.\n");
+        } else {
+            strcpy(t->arquivooutput, tokens[2]);
+            t->modooutput = 1;
+            printf("Output redirecionado para '%s'.\n", tokens[2]);
+    }
+}
+
+    if (strcmp(tokens[0], "append") == 0) {
+        char *nometask = tokens[1];
+        Task *t = buscartask(nometask);
+        if (t == NULL) {
+            printf("Erro: tarefa não existe.\n");
+        } else {
+            strcpy(t->arquivooutput, tokens[2]);
+            t->modooutput = 2;
+            printf("Output será anexado a '%s'.\n", tokens[2]);
+    }
+}
+
+    if (strcmp(tokens[0], "input") == 0) {
+        char *nometask = tokens[1];
+        Task *t = buscartask(nometask);
+        if (t == NULL) {
+            printf("Erro: tarefa não existe.\n");
+        } else {
+            strcpy(t->arquivoinput, tokens[2]);
+            printf("Input será lido de '%s'.\n", tokens[2]);
+    }
 }
 }
     return 0;

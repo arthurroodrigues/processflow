@@ -8,6 +8,9 @@ typedef struct Task{
     char programa[100];
     char args[MAX_ARGS][300];
     int totalargs;
+    char arquivoinput[300];
+    char arquivooutput[300];
+    int modooutput;
 } Task;
 
 void cadastrartask(char *nome, char *programa, char *args[], int totalargs);
