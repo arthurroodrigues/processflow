@@ -12,7 +12,7 @@ Desenvolvido e testado em Linux (WSL - Ubuntu, rodando sobre Windows).
 - `task.h` / `task.c` — struct `Task` e funções para cadastrar e buscar tarefas
 - `job.h` / `job.c` — struct `Job` e funções para gerenciar execuções em background
 - `Makefile` — compilação, execução e testes
-- `tests/test.pf` — arquivo de exemplo de workflow
+- `teste.pf` — arquivo de exemplo de workflow
 - `evidencias.log` — log da sessão de desenvolvimento
 
 ## Como compilar
@@ -30,7 +30,7 @@ make build
 ou, para rodar um arquivo de workflow:
 
 ```bash
-./processflow tests/test.pf
+./processflow teste.pf
 ```
 
 ## Como testar
