@@ -100,6 +100,9 @@ int main(int argc, char *argv[]){
             token=strtok(NULL," ");
 
         }
+        if (totaltokens == 0) {
+            continue;
+        }
         
         if (strcmp(tokens[0], "task") == 0) {
             char *nome = tokens[1];

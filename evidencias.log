@@ -789,3 +789,11 @@ exit
 [?2004lexit
 
 Script done on 2026-08-24 02:36:54-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-24 02:41:52-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="203" LINES="22"]
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ [7m./processflow[27m./processflow
+[?2004lprocessflow> 
+processflow> exit
+[?2004h]0;arthur@DESKTOP-0VQHRHI: /mnt/c/Users/User/Desktop/ara[01;32marthur@DESKTOP-0VQHRHI[00m:[01;34m/mnt/c/Users/User/Desktop/ara[00m$ exit
+[?2004lexit
+
+Script done on 2026-08-24 02:43:48-03:00 [COMMAND_EXIT_CODE="0"]
